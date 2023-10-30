@@ -1,0 +1,15 @@
+function design(data){
+    if(data == '*')
+    console.log("***")
+    else if(data == '$')
+    console.log("$$$$$$$$$$$$$")
+    else if(data == '.')
+    console.log(".............")
+    else if(data == '-')
+    console.log("-------------")
+}
+design('*')
+console.log("hi")
+design('-')
+console.log("hello")
+design('$')
